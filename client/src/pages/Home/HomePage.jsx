@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import PhotoCard from "../../components/PhotoCard/PhotoCard";
 import axios from "axios";
 
 import "./HomePage.scss";
@@ -27,7 +28,7 @@ function HomePage() {
         Pick an artist and guess whether the songs are real or fake. You have 10
         guesses. Good luck!
       </p>
-      {/* PhotoCard component will go here */}
+      <PhotoCard image="https://crouton.net/crouton.png" name="Crouton" />
       <button>Start Quiz</button>
     </>
   );
