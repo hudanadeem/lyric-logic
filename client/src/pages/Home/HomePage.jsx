@@ -14,11 +14,10 @@ function HomePage() {
     axios
       .get(`${baseURL}/artists`)
       .then((response) => {
-        setArtists(response.data.artists); 
+        setArtists(response.data.artists);
       })
       .catch((error) => {
-        console.error("Error fetching
-                      s:", error);
+        console.error("Error fetching:", error);
       });
   }, []);
 
