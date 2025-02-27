@@ -4,7 +4,7 @@ import "./QuizPage.scss";
 
 function QuizPage() {
   const location = useLocation();
-  const artist = location.state?.artist;
+  const artist = location.state?.a;
 
   if (!artist) return <p>Error: No artist selected</p>;
 
