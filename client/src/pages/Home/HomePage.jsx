@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import PhotoCard from "../../components/PhotoCard/PhotoCard";
 import axios from "axios";
 import "../../App.scss";
+import { Link } from "react-router-dom";
 
 import "./HomePage.scss";
 function HomePage() {
@@ -26,7 +27,9 @@ function HomePage() {
   if (artist) {
     {
       artistCards = artist.map((a) => (
-        <PhotoCard image={a.photo} name={a.name} />
+        <Link to="/quiz" state={{ a }}>
+          <PhotoCard image={a.photo} name={a.name} />
+        </Link>
       ));
     }
   }

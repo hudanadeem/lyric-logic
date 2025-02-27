@@ -1,4 +1,4 @@
-@import "../../styles/partials/colors.scss";
+@use "../../styles/partials/colors" as *;
 
 .home {
   &__header {
