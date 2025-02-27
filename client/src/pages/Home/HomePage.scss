@@ -1,4 +1,12 @@
+@import "../../styles/partials/colors.scss";
+
 .home {
+  &__header {
+    color: $coral;
+  }
+  &__desc {
+    color: $blue;
+  }
   &__artists {
     display: flex;
     justify-content: center;
