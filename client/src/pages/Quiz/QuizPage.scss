@@ -1,3 +1,5 @@
+@use "../../styles/partials/colors" as *;
+
 * {
   padding: 0;
   margin: 0;
@@ -20,11 +22,13 @@
       color: #f28482;
       font-size: 2rem;
       font-weight: bold;
+      text-align: left;
+      text-shadow: 0 0 8px rgba($coral, 0.5);
     }
 
     .quiz__question {
       display: flex;
-      flex-direction: column; 
+      flex-direction: column;
       align-items: flex-start;
       gap: 0.5rem;
 
@@ -43,11 +47,11 @@
           color: white;
           border: none;
           padding: 0.5rem 1.5rem;
-          border-radius: 20px; 
+          border-radius: 20px;
           font-size: 1rem;
           cursor: pointer;
           transition: 0.3s;
-          width: 100px; 
+          width: 100px;
 
           &:hover,
           &.selected {
@@ -59,15 +63,16 @@
 
     .quiz__submit {
       background-color: #f6bd60;
-      color: black;
+      color: $burnt-orange;
       font-weight: bold;
       font-size: 1rem;
       padding: 0.7rem 1.5rem;
       border: none;
-      border-radius: 20px; 
+      border-radius: 20px;
       cursor: pointer;
       transition: 0.3s;
       width: 120px;
+      box-shadow: 0 0 8px rgba(white, 0.5);
 
       &:hover {
         background-color: darken(#f6bd60, 10%);
@@ -80,6 +85,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+    gap: 20px;
 
     .quiz__score {
       font-size: 1.5rem;

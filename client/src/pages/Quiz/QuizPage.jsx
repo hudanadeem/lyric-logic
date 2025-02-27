@@ -1,5 +1,6 @@
 import { useState, useEffect } from "react";
 import { useLocation } from "react-router-dom";
+import PhotoCard from "../../components/PhotoCard/PhotoCard";
 import "./QuizPage.scss";
 
 function QuizPage() {
@@ -63,6 +64,7 @@ function QuizPage() {
         </button>
       </div>
       <div className="quiz__right">
+        <PhotoCard image={artist.photo} />
         <h3 className="quiz__score">
           Your Score: {score === null ? "?/10" : `${score}/10`}
         </h3>
