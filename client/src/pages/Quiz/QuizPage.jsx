@@ -38,7 +38,6 @@ function QuizPage() {
   return (
     <div className="quiz">
       <div className="quiz__left">
-        <h2>{artist.name}</h2>
         {shuffledSongs.map(({ song }) => (
           <div key={song} className="quiz__question">
             <p>{song}</p>
@@ -63,8 +62,10 @@ function QuizPage() {
           Submit
         </button>
       </div>
+
       <div className="quiz__right">
-        <PhotoCard image={artist.photo} />
+        <h2 className="quiz__artist-name">{artist.name}</h2>
+          <PhotoCard image={artist.photo} />
         <h3 className="quiz__score">
           Your Score: {score === null ? "?/10" : `${score}/10`}
         </h3>
