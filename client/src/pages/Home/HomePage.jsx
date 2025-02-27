@@ -12,7 +12,7 @@ function HomePage() {
     axios
       .get(`${baseURL}/artists`)
       .then((response) => {
-        setArtist(response.data);
+        setArtist(response.data.artists);
       })
       .catch((error) => {
         console.error("Error fetching artists:", error);
@@ -21,15 +21,23 @@ function HomePage() {
 
   console.log(artist);
 
+  let artistCards = <div>loading artists...</div>;
+  if (artist) {
+    {
+      artistCards = artist.map((a) => (
+        <PhotoCard image={a.photo} name={a.name} />
+      ));
+    }
+  }
+
   return (
     <>
       <h1>Are you a real fan?</h1>
       <p>
-        Pick an artist and guess whether the songs are real or fake. You have 10
-        guesses. Good luck!
+        Click on an artist and guess whether the songs that appear are real or
+        fake. You have 10 guesses. Good luck!
       </p>
-      <PhotoCard image="https://crouton.net/crouton.png" name="Crouton" />
-      <button>Start Quiz</button>
+      {artistCards}
     </>
   );
 }
