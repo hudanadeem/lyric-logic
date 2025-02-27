@@ -1,3 +1,6 @@
+import { useState, useEffect } from "react";
+import axios from "axios";
+
 import "./HomePage.scss";
 function HomePage() {
   const baseURL = import.meta.env.VITE_API_URL;
