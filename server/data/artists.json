@@ -1,185 +1,184 @@
 {
-    "artists": [
-      {
-        "name": "The Weeknd",
-        "photo": "/public/photos/the-weeknd.jpg",
-        "real_songs": [
-          "Blinding Lights",
-          "Save Your Tears",
-          "The Hills",
-          "Starboy",
-          "Can't Feel My Face"
-        ],
-        "fake_songs": [
-          "Midnight Fever",
-          "Neon Dreams",
-          "Dark Desire",
-          "City Shadows",
-          "Lost in Echoes"
-        ]
-      },
-      {
-        "name": "Taylor Swift",
-        "photo": "/public/photos/tay.jpg",
-        "real_songs": [
-          "Anti-Hero",
-          "Lover",
-          "You Belong With Me",
-          "All Too Well",
-          "Shake It Off"
-        ],
-        "fake_songs": [
-          "Golden Hour",
-          "Echoes of Yesterday",
-          "Falling For You",
-          "Love and Letters",
-          "Heartstrings"
-        ]
-      },
-      {
-        "name": "Billie Eilish",
-        "photo": "/public/photos/billie.jpg",
-        "real_songs": [
-          "Bad Guy",
-          "Happier Than Ever",
-          "Everything I Wanted",
-          "Bury a Friend",
-          "Ocean Eyes"
-        ],
-        "fake_songs": [
-          "Broken Silence",
-          "Shadows in My Room",
-          "Glass Heart",
-          "Lost in the Static",
-          "Echo Chamber"
-        ]
-      },
-      {
-        "name": "Ariana Grande",
-        "photo": "/public/photos/ariana-grande.jpg",
-        "real_songs": [
-          "Thank U, Next",
-          "Into You",
-          "No Tears Left to Cry",
-          "Positions",
-          "Dangerous Woman"
-        ],
-        "fake_songs": [
-          "Butterfly Effect",
-          "Silver Lining",
-          "Velvet Skies",
-          "Moonlit Dance",
-          "Echoes of Love"
-        ]
-      },
-      {
-        "name": "Drake",
-        "photo": "/public/photos/drake.jpg",
-        "real_songs": [
-          "God's Plan",
-          "Hotline Bling",
-          "In My Feelings",
-          "Laugh Now Cry Later",
-          "Started From the Bottom"
-        ],
-        "fake_songs": [
-          "Overdrive",
-          "Million Dollar Dreams",
-          "Toronto Nights",
-          "Henny and Heartbreak",
-          "Lost in the 6ix"
-        ]
-      },
-      {
-        "name": "Beyoncé",
-        "photo": "/public/photos/beyonce.jpg",
-        "real_songs": [
-          "Halo",
-          "Single Ladies",
-          "Formation",
-          "Break My Soul",
-          "Crazy in Love"
-        ],
-        "fake_songs": [
-          "Golden Throne",
-          "Queen's Melody",
-          "Midnight Majesty",
-          "Echo of the Crown",
-          "Fierce Love"
-        ]
-      },
-      {
-        "name": "Doechii",
-        "photo": "/public/photos/doechii.jpg",
-        "real_songs": [
-          "What It Is",
-          "Persuasive",
-          "Crazy",
-          "Spooky Coochie",
-          "Stressed"
-        ],
-        "fake_songs": [
-          "Midnight Moves",
-          "Electric Energy",
-          "Venomous Vibes",
-          "Golden Glow",
-          "No Chill"
-        ]
-      },
-      {
-        "name": "Kendrick Lamar",
-        "photo": "/public/photos/kendrick.jpg",
-        "real_songs": [
-          "HUMBLE.",
-          "Alright",
-          "Money Trees",
-          "DNA.",
-          "Swimming Pools (Drank)"
-        ],
-        "fake_songs": [
-          "West Coast Stories",
-          "Golden Chains",
-          "Poetic Hustle",
-          "Compton Echoes",
-          "Elevated Mind"
-        ]
-      },
-      {
-        "name": "Chappell Roan",
-        "photo": "/public/photos/chappell.webp",
-        "real_songs": [
-          "Casual",
-          "Pink Pony Club",
-          "HOT TO GO!",
-          "Red Wine Supernova",
-          "Naked in Manhattan"
-        ],
-        "fake_songs": [
-          "Crystal Skies",
-          "Velvet Lights",
-          "Midnight Masquerade",
-          "Neon Rose",
-          "Golden Symphony"
-        ]
-      },
-      {
-        "name": "SZA",
-        "photo": "/public/photos/sza.webp",
-        "real_songs": [
-          "Kill Bill",
-          "Good Days",
-          "Snooze",
-          "Nobody Gets Me",
-          "Love Galore"
-        ],
-        "fake_songs": [
-          "Cloud Nine",
-          "Lost in the Waves",
-          "Velvet Horizon",
-          "Daydreaming",
-          "Unwritten Letters"
-        ]
-      }
-    ]
-  }
-  
+  "artists": [
+    {
+      "name": "The Weeknd",
+      "photo": "/photos/the-weeknd.jpg",
+      "real_songs": [
+        "Blinding Lights",
+        "Save Your Tears",
+        "The Hills",
+        "Starboy",
+        "Can't Feel My Face"
+      ],
+      "fake_songs": [
+        "Midnight Fever",
+        "Neon Dreams",
+        "Dark Desire",
+        "City Shadows",
+        "Lost in Echoes"
+      ]
+    },
+    {
+      "name": "Taylor Swift",
+      "photo": "/photos/tay.jpg",
+      "real_songs": [
+        "Anti-Hero",
+        "Lover",
+        "You Belong With Me",
+        "All Too Well",
+        "Shake It Off"
+      ],
+      "fake_songs": [
+        "Golden Hour",
+        "Echoes of Yesterday",
+        "Falling For You",
+        "Love and Letters",
+        "Heartstrings"
+      ]
+    },
+    {
+      "name": "Billie Eilish",
+      "photo": "/photos/billie.jpg",
+      "real_songs": [
+        "Bad Guy",
+        "Happier Than Ever",
+        "Everything I Wanted",
+        "Bury a Friend",
+        "Ocean Eyes"
+      ],
+      "fake_songs": [
+        "Broken Silence",
+        "Shadows in My Room",
+        "Glass Heart",
+        "Lost in the Static",
+        "Echo Chamber"
+      ]
+    },
+    {
+      "name": "Ariana Grande",
+      "photo": "/photos/ariana-grande.jpg",
+      "real_songs": [
+        "Thank U, Next",
+        "Into You",
+        "No Tears Left to Cry",
+        "Positions",
+        "Dangerous Woman"
+      ],
+      "fake_songs": [
+        "Butterfly Effect",
+        "Silver Lining",
+        "Velvet Skies",
+        "Moonlit Dance",
+        "Echoes of Love"
+      ]
+    },
+    {
+      "name": "Drake",
+      "photo": "/photos/drake.jpg",
+      "real_songs": [
+        "God's Plan",
+        "Hotline Bling",
+        "In My Feelings",
+        "Laugh Now Cry Later",
+        "Started From the Bottom"
+      ],
+      "fake_songs": [
+        "Overdrive",
+        "Million Dollar Dreams",
+        "Toronto Nights",
+        "Henny and Heartbreak",
+        "Lost in the 6ix"
+      ]
+    },
+    {
+      "name": "Beyoncé",
+      "photo": "/photos/beyonce.jpg",
+      "real_songs": [
+        "Halo",
+        "Single Ladies",
+        "Formation",
+        "Break My Soul",
+        "Crazy in Love"
+      ],
+      "fake_songs": [
+        "Golden Throne",
+        "Queen's Melody",
+        "Midnight Majesty",
+        "Echo of the Crown",
+        "Fierce Love"
+      ]
+    },
+    {
+      "name": "Doechii",
+      "photo": "/photos/doechii.jpg",
+      "real_songs": [
+        "What It Is",
+        "Persuasive",
+        "Crazy",
+        "Spooky Coochie",
+        "Stressed"
+      ],
+      "fake_songs": [
+        "Midnight Moves",
+        "Electric Energy",
+        "Venomous Vibes",
+        "Golden Glow",
+        "No Chill"
+      ]
+    },
+    {
+      "name": "Kendrick Lamar",
+      "photo": "/photos/kendrick.jpg",
+      "real_songs": [
+        "HUMBLE.",
+        "Alright",
+        "Money Trees",
+        "DNA.",
+        "Swimming Pools (Drank)"
+      ],
+      "fake_songs": [
+        "West Coast Stories",
+        "Golden Chains",
+        "Poetic Hustle",
+        "Compton Echoes",
+        "Elevated Mind"
+      ]
+    },
+    {
+      "name": "Chappell Roan",
+      "photo": "/photos/chappell.webp",
+      "real_songs": [
+        "Casual",
+        "Pink Pony Club",
+        "HOT TO GO!",
+        "Red Wine Supernova",
+        "Naked in Manhattan"
+      ],
+      "fake_songs": [
+        "Crystal Skies",
+        "Velvet Lights",
+        "Midnight Masquerade",
+        "Neon Rose",
+        "Golden Symphony"
+      ]
+    },
+    {
+      "name": "SZA",
+      "photo": "/photos/sza.webp",
+      "real_songs": [
+        "Kill Bill",
+        "Good Days",
+        "Snooze",
+        "Nobody Gets Me",
+        "Love Galore"
+      ],
+      "fake_songs": [
+        "Cloud Nine",
+        "Lost in the Waves",
+        "Velvet Horizon",
+        "Daydreaming",
+        "Unwritten Letters"
+      ]
+    }
+  ]
+}
