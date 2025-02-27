@@ -2,7 +2,7 @@
     "artists": [
       {
         "name": "The Weeknd",
-        "photo": "/public/photos/the-weeknd.jpg",
+        "photo": "/photos/the-weeknd.jpg",
         "real_songs": [
           "Blinding Lights",
           "Save Your Tears",
@@ -20,7 +20,7 @@
       },
       {
         "name": "Taylor Swift",
-        "photo": "/public/photos/tay.jpg",
+        "photo": "/photos/tay.jpg",
         "real_songs": [
           "Anti-Hero",
           "Lover",
@@ -38,7 +38,7 @@
       },
       {
         "name": "Billie Eilish",
-        "photo": "/public/photos/billie.jpg",
+        "photo": "/photos/billie.jpg",
         "real_songs": [
           "Bad Guy",
           "Happier Than Ever",
@@ -56,7 +56,7 @@
       },
       {
         "name": "Ariana Grande",
-        "photo": "/public/photos/ariana-grande.jpg",
+        "photo": "/photos/ariana-grande.jpg",
         "real_songs": [
           "Thank U, Next",
           "Into You",
@@ -74,7 +74,7 @@
       },
       {
         "name": "Drake",
-        "photo": "/public/photos/drake.jpg",
+        "photo": "/photos/drake.jpg",
         "real_songs": [
           "God's Plan",
           "Hotline Bling",
@@ -92,7 +92,7 @@
       },
       {
         "name": "Beyoncé",
-        "photo": "/public/photos/beyonce.jpg",
+        "photo": "/photos/beyonce.jpg",
         "real_songs": [
           "Halo",
           "Single Ladies",
@@ -110,7 +110,7 @@
       },
       {
         "name": "Doechii",
-        "photo": "/public/photos/doechii.jpg",
+        "photo": "/photos/doechii.jpg",
         "real_songs": [
           "What It Is",
           "Persuasive",
@@ -128,7 +128,7 @@
       },
       {
         "name": "Kendrick Lamar",
-        "photo": "/public/photos/kendrick.jpg",
+        "photo": "/photos/kendrick.jpg",
         "real_songs": [
           "HUMBLE.",
           "Alright",
@@ -146,7 +146,7 @@
       },
       {
         "name": "Chappell Roan",
-        "photo": "/public/photos/chappell.webp",
+        "photo": "/photos/chappell.webp",
         "real_songs": [
           "Casual",
           "Pink Pony Club",
@@ -164,7 +164,7 @@
       },
       {
         "name": "SZA",
-        "photo": "/public/photos/sza.webp",
+        "photo": "/photos/sza.webp",
         "real_songs": [
           "Kill Bill",
           "Good Days",
