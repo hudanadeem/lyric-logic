@@ -1,3 +1,9 @@
+import { useState, useEffect } from "react";
+import PhotoCard from "../../components/PhotoCard/PhotoCard";
+import axios from "axios";
+import "../../App.scss";
+import { Link } from "react-router-dom";
+
 import "./HomePage.scss";
 function HomePage() {
   const baseURL = import.meta.env.VITE_API_URL;
@@ -8,7 +14,7 @@ function HomePage() {
     axios
       .get(`${baseURL}/artists`)
       .then((response) => {
-        setArtist(response.data);
+        setArtist(response.data.artists);
       })
       .catch((error) => {
         console.error("Error fetching artists:", error);
@@ -17,7 +23,27 @@ function HomePage() {
 
   console.log(artist);
 
-  return <></>;
+  let artistCards = <div>loading artists...</div>;
+  if (artist) {
+    {
+      artistCards = artist.map((a) => (
+        <Link to="/quiz" state={{ a }}>
+          <PhotoCard image={a.photo} name={a.name} />
+        </Link>
+      ));
+    }
+  }
+
+  return (
+    <>
+      <h1 className="home__header">Are you a real fan?</h1>
+      <p className="home__desc">
+        Click on an artist and guess whether the songs that appear are real or
+        fake. You have 10 guesses. Good luck!
+      </p>
+      <div className="home__artists">{artistCards}</div>
+    </>
+  );
 }
 
 export default HomePage;
