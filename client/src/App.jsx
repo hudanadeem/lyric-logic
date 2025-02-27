@@ -1,15 +1,19 @@
-import './App.css'
-
-//const baseURL = import.meta.env.VITE_API_URL;
-//.get(`${baseURL}/`)
+import "./App.css";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import HomePage from "./pages/Home/HomePage";
+import QuizPage from "./pages/Quiz/QuizPage";
+import ScorePage from "./pages/Score/ScorePage";
 
 function App() {
-
   return (
-    <>
-      <h1>Real-Fan-Game</h1>
-    </>
-  )
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<HomePage />} />
+        <Route path="/quiz" element={<QuizPage />} />
+        <Route path="/score" element={<ScorePage />} />
+      </Routes>
+    </BrowserRouter>
+  );
 }
 
-export default App
+export default App;
