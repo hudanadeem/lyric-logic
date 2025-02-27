@@ -20,7 +20,17 @@ function HomePage() {
 
   console.log(artist);
 
-  return <></>;
+  return (
+    <>
+      <h1>Are you a real fan?</h1>
+      <p>
+        Pick an artist and guess whether the songs are real or fake. You have 10
+        guesses. Good luck!
+      </p>
+      {/* PhotoCard component will go here */}
+      <button>Start Quiz</button>
+    </>
+  );
 }
 
 export default HomePage;
