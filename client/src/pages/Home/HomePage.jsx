@@ -1,6 +1,7 @@
 import { useState, useEffect } from "react";
 import PhotoCard from "../../components/PhotoCard/PhotoCard";
 import axios from "axios";
+import "../../App.scss";
 
 import "./HomePage.scss";
 function HomePage() {
@@ -32,12 +33,12 @@ function HomePage() {
 
   return (
     <>
-      <h1>Are you a real fan?</h1>
-      <p>
+      <h1 className="home__header">Are you a real fan?</h1>
+      <p className="home__desc">
         Click on an artist and guess whether the songs that appear are real or
         fake. You have 10 guesses. Good luck!
       </p>
-      {artistCards}
+      <div className="home__artists">{artistCards}</div>
     </>
   );
 }

@@ -1,3 +1,5 @@
+import "./PhotoCard.scss";
+
 export default function PhotoCard({ image, name }) {
   return (
     <div className="photo-card">
