@@ -1,0 +1,14 @@
+@use "./styles/partials/colors" as *;
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: $linen;
+}
+
+a {
+  text-decoration: none;
+}

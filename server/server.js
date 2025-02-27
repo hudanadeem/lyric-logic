@@ -12,7 +12,7 @@ const port = process.env.PORT || process.argv[2] || 8080;
 app.use(cors({ origin: CORS_ORIGIN }));
 app.use(express.json());
 
-app.use("/photos", express.static(path.join(process.cwd(), "public/photos")));
+app.use("/photos", express.static(path.join(process.cwd(), "/public/photos")));
 
 const artistsFile = fs.readFileSync(FILE_PATH_ARTISTS);
 const artists = JSON.parse(artistsFile);
