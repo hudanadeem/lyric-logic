@@ -25,7 +25,8 @@ This project was created during a **4–5 hour Hackathon-style sprint** with a p
 <table>
   <tr>
     <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/html5/html5-original.svg" width="30"/> HTML5</td>
-    <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/css3/css3-original.svg" width="30"/> CSS3</td>
+  <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/sass/sass-original.svg" width="30"/> SCSS</td>
+  <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg" width="30"/> React</td>
     <td><img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/javascript/javascript-original.svg" width="30"/> JavaScript</td>
   </tr>
   <tr>
@@ -42,6 +43,17 @@ This project was created during a **4–5 hour Hackathon-style sprint** with a p
 ---
 
 ## 🚀 Getting Started
+
+### 📂 Clone the repository
+
+1. **Clone the repo:**
+
+```bash
+git clone https://github.com/hudanadeem/lyric-logic.git
+cd lyric-logic
+```
+
+---
 
 ### 🧪 Backend Setup
 
@@ -60,29 +72,28 @@ npm install
 3. Run the server:
 
 ```bash
-npm run dev
-# or
-node index.js
+npm run start
 ```
-
-The server will start at `http://localhost:8080` by default.
-
 ---
 
 ### 💻 Frontend Setup
 
-1. Open the `client/index.html` file
+1. Navigate to the `client/` folder:
 
-2. **(Optional)** Use the **Live Server** extension in VS Code:
+```bash
+cd client
+```
 
-   - Right-click `index.html`
-   - Click **“Open with Live Server”**
+4. Install dependencies:
 
----
+```bash
+npm install
+```
 
-## 👯‍♀️ Team
+5. Run the client:
 
-Created by Huda Nadeem and a partner  
-Developed in ~5 hours during a Hackathon sprint 🚀
+```bash
+npm run dev
+```
 
 ---
